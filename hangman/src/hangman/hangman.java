@@ -215,7 +215,7 @@ public class hangman extends JFrame {
             mistakes++;
             updateMan();
             if (mistakes >= 6) {
-                JOptionPane.showMessageDialog(this, "Game Over! The word was:  ewan" + secretWord);
+                JOptionPane.showMessageDialog(this, "Game Over! The word was: " + secretWord);
                 resetGame();
             }
         }
@@ -265,5 +265,3 @@ public class hangman extends JFrame {
         new hangman().setVisible(true);
     }
 }
-
-//TESTTTT
